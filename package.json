@@ -1,0 +1,18 @@
+{
+  "name": "champ_persistent_map",
+  "version": "1.0.0",
+  "description": "Persistent (immutable) hash map and set built on a CHAMP trie: structural sharing, transients, canonical form, O(diff) structural diffing. Zero dependencies.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "scripts": {
+    "test": "node --test",
+    "bench": "node bench/bench.js",
+    "example": "node examples/undo-history.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["hamt", "champ", "persistent", "immutable", "hash-trie", "data-structures"],
+  "license": "MIT"
+}
